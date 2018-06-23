@@ -51,7 +51,7 @@ public class MainActivity extends AppCompatActivity {
         }
 
         try {
-            FileOutputStream fos = openFileOutput("output", MODE_PRIVATE);
+            FileOutputStream fos = openFileOutput("output.bin", MODE_PRIVATE);
             fos.write(tenMillionBytes);
         } catch (Exception e) {
             e.printStackTrace();
