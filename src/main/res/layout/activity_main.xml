@@ -34,7 +34,7 @@
             android:id="@+id/button"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="GENERATE 10 MILLIONS BYTES" />
+            android:text="GENERATE 10 MILLION BYTES" />
 
     </LinearLayout>
 
